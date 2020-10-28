@@ -1,10 +1,14 @@
 # Transformer-based Double-token Bidirectional Autoregressive Decoding in Neural Machine Translation (Imamura and Sumita, 2020)
 
-This example replaces the fairseq decoder with our custom one, called
-the double-token bidirectional autoregressive decoder.  Based on the
-fairseq v0.9.0, the paper [https://undecided_URL] is implemented.
-The processes are nearly equal to those of the original fairseq.
-The training and evaluation phases are different because they use our plugin.
+This is a sample code, in which the title paper
+[https://undecided_URL] is implemented as a plugin of the fairseq
+v0.9.0.  It replaces the decoder and beam search with the proposed
+ones.
+
+The preprocess is eqaul to that of the original fairseq, but
+the training and evaluation phases including the learned model are
+different.
+
 
 ## Example usage
 This example assumes the following data.
