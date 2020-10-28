@@ -2,7 +2,7 @@
 
 This example replaces the fairseq decoder with our custom one, called
 the double-token bidirectional autoregressive decoder.  Based on the
-fairseq v0.9.0, the paper [https://write_URL] is implemented.
+fairseq v0.9.0, the paper [https://undecided_URL] is implemented.
 The processes are nearly equal to those of the original fairseq.
 The training and evaluation phases are different because they use our plugin.
 
@@ -96,5 +96,12 @@ fairseq-generate $DATA -s en -t de \
 - `TEST.bash` is a sample script.
 
 ## Citation
-```The bibtex entry will be written here.
+```bibtex
+@inproceedings{imamura-sumita-2020-decoding,
+  title     = "Transformer-based Double-token Bidirectional Autoregressive Decoding in Neural Machine Translation",
+  author    = "Imamura, Kenji and Sumita, Eiichiro",
+  booktitle = "Proceedings of the 7th Workshop on Asian Translation (WAT 2020)",
+  year      = 2020,
+  month     = "Dec.",
+}
 ```
