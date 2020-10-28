@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) 2020 kenji-imamura
+The original part of the fairseq: Copyright (c) Facebook, Inc. and its affiliates.
+The modified and additional parts:
+Copyright (c) 2020 National Institute of Information and Communications Technology.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
