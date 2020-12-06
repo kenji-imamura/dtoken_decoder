@@ -101,11 +101,16 @@ fairseq-generate $DATA -s en -t de \
 
 ## Citation
 ```bibtex
-@inproceedings{imamura-sumita-2020-decoding,
-  title     = "Transformer-based Double-token Bidirectional Autoregressive Decoding in Neural Machine Translation",
-  author    = "Imamura, Kenji and Sumita, Eiichiro",
-  booktitle = "Proceedings of the 7th Workshop on Asian Translation (WAT 2020)",
-  year      = 2020,
-  month     = "Dec.",
+@inproceedings{imamura-sumita-2020-transformer,
+  title = "Transformer-based Double-token Bidirectional Autoregressive Decoding in Neural Machine Translation",
+  author = "Imamura, Kenji and Sumita, Eiichiro",
+  booktitle = "Proceedings of the 7th Workshop on Asian Translation",
+  month = dec,
+  year = "2020",
+  address = "Suzhou, China",
+  publisher = "Association for Computational Linguistics",
+  url = "https://www.aclweb.org/anthology/2020.wat-1.3",
+  pages = "50--57",
+  abstract = "This paper presents a simple method that extends a standard Transformer-based autoregressive decoder, to speed up decoding. The proposed method generates a token from the head and tail of a sentence (two tokens in total) in each step. By simultaneously generating multiple tokens that rarely depend on each other, the decoding speed is increased while the degradation in translation quality is minimized. In our experiments, the proposed method increased the translation speed by around 113{\%}-155{\%} in comparison with a standard autoregressive decoder, while degrading the BLEU scores by no more than 1.03. It was faster than an iterative non-autoregressive decoder in many conditions.",
 }
 ```
